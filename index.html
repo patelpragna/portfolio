@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pragna Patel</title>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Bodo - Simple One Page Personal" name="description">
+  <meta content="BdgPixel" name="author">
+  <!--Fav-->
+  <link href="images/P.png" rel="shortcut icon">
+
+  <!--styles-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--fonts google-->
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    function send_mail() {
+      var fromName = document.getElementById("name").value;
+      var fromEmail = document.getElementById("email").value;
+      var messageHtml = document.getElementById("message").value;
+      (function () {
+        emailjs.init("user_tlkLD9rYYJzU1M5IgvHGC");
+      })();
+      emailjs.send("patel.ang09_gmail_com", "pragna_portfolio", { from_name: fromName, to_name: "Pragna", message_html: messageHtml, from_email: fromEmail })
+        .then(function (response) {
+          console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+        },
+          function (err) {
+            console.log("FAILED. error=", err);
+          });
+
+    }
+
+  </script>
+  <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!--PRELOADER-->
+  <!--
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="images/logo-big.png">
+      </div>
+    </div>
+-->
+  <!--/.PRELOADER END-->
+
+  <!--HEADER -->
+  <div class="header">
+    <div class="for-sticky">
+      <!--LOGO-->
+      <div class="col-md-2 col-xs-6 logo">
+        <a href="index.html"><img alt="logo" class="logo-nav" src="images/PRagna_copy.png"></a>
+      </div>
+      <!--/.LOGO END-->
+    </div>
+    <div class="menu-wrap">
+      <nav class="menu">
+        <div class="menu-list">
+          <a data-scroll="" href="#home" id="1" class="active">
+            <span><i class="fa fa-home" aria-hidden="true"></i> Home</span>
+          </a>
+          <a data-scroll="" href="#about">
+            <span><i class="fa fa-info-circle" aria-hidden="true"></i> About</span>
+          </a>
+          <a data-scroll="" href="#work">
+            <span><i class="fa fa-laptop" aria-hidden="true"></i> My Work</span>
+          </a>
+          <!-- <a data-scroll="" href="#services">
+            <span><i class="fa fa-globe" aria-hidden="true"></i> Things I Do</span>
+          </a> -->
+          <a data-scroll="" href="#employement">
+            <span><i class="fa fa-suitcase" aria-hidden="true"></i> Experience</span>
+          </a>
+          <a data-scroll="" href="#skill">
+            <span><i class="fa fa-cogs" aria-hidden="true"></i> Skills</span>
+          </a>
+          <a data-scroll="" href="#education">
+            <span><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</span>
+          </a>
+          <!--
+            <a data-scroll="" href="#testimonial">
+              <span>Testimonial</span>
+            </a>
+-->
+          </a>
+          <a data-scroll="" href="#contact">
+            <span><i class="fa fa-envelope" aria-hidden="true"></i> Contact</span>
+          </a>
+        </div>
+      </nav>
+      <button class="close-button" id="close-button">Close Menu</button>
+    </div>
+    <button class="menu-button" id="open-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <!--/.for-sticky-->
+  </div>
+  <!--/.HEADER END-->
+
+  <!--CONTENT WRAP-->
+  <div class="content-wrap">
+    <!--CONTENT-->
+    <div class="content">
+      <!--HOME-->
+      <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="wrap-hero-content">
+              <div class="hero-content">
+                <h1>Hello</h1>
+                <br>
+                <span class="typed"></span>
+              </div>
+            </div>
+            <div class="mouse-icon margin-20">
+              <div class="scroll"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/.HOME END-->
+
+      <!--ABOUT-->
+      <section id="about">
+        <div class="col-md-6 col-xs-12 no-pad">
+          <div class="bg-about"></div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+          <div class="row">
+            <!--OWL CAROUSEL2-->
+            <div class="owl-carousel2">
+              <div class="col-md-12">
+                <div class="wrap-about">
+                  <div class="w-content">
+                    <p class="head-about">
+                      <strong>4+ years of Experience in Software industry:</strong> Analysis, design, development and
+                      testing of various applications using Web Technologies like using <strong>HTML 4.01/5, CSS (2/3),
+                        XHTML, JavaScript, DOM, JQuery, AJAX, XML and JSON.</strong><br>
+                      Design is the method of putting imagination, creativity and content together.Providing, meaning to
+                      a mass of unrelated needs, ideas, words and pictures - it is the designer's job to select and fit
+                      this material together and make it interesting.</p>
+                    <a href="images/pkirit-resume.pdf" download="Resume"><button type="button"
+                        class="btn btn-default"><i class="fa fa-cloud-download" aria-hidden="true"></i> Download
+                        Resume</button></a>
+                    <h4 class="name" id="about-name">
+                      Pragna Patel
+                    </h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-sm-12 col-xs-12 white-col">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <div class="wrap-about">
+                      <table class="w-content">
+                        <tr>
+                          <td class="title">Name </td>
+                          <td class="break">:</td>
+                          <td> Pragna Patel</td>
+                        </tr>
+                        <tr>
+                          <td class="title">Phone </td>
+                          <td class="break">:</td>
+                          <td> +1(732)-971-4647</td>
+                        </tr>
+                        <tr>
+                          <td class="title">Email </td>
+                          <td class="break">:</td>
+                          <td> patel.ang09@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <td class="title">Address </td>
+                          <td class="break">:</td>
+                          <td> 1705, Van Wickle Drive, Franklin Park, NJ 08823</td>
+                        </tr>
+                        <tr>
+                          <td class="title">Skype </td>
+                          <td class="break">:</td>
+                          <td> pragnapatel027</td>
+                        </tr>
+                        <!--
+                          <tr>
+                            <td class="title">Dribbble </td>
+                            <td class="break">:</td>
+                            <td> Muh-Reza</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Behance</td>
+                            <td class="break">:</td>
+                            <td> m-reza</td>
+                          </tr>
+-->
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.OWL CAROUSEL2 END-->
+          </div>
+        </div>
+      </section>
+      <!--/.ABOUT END-->
+
+      <!--WORK-->
+      <section class="grey-bg mar-tm-10" id="work">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="title-small">
+                <span><i class="fa fa-laptop" aria-hidden="true"></i> My Work</span>
+              </h3>
+              <p class="content-detail">
+                Made websites Single Page Applications and Multi Page Applications, using HTML5, CSS3, JAVASCRIPT,
+                JQUERY and different JS frameworks. <br>
+              </p>
+              <a style="color: blue;" href="https://github.com/patelpragna/Todo-React-App" target="_blank">Github
+                Repo</a>
+            </div>
+            <div class="col-md-8 content-right">
+              <!--PORTFOLIO IMAGE-->
+              <ul class="portfolio-image">
+                <li class="col-md-8">
+                  <a href="images/daily-todo.png"><img alt="image" src="images/daily-todo.png">
+                    <div class="decription-wrap">
+                      <div class="image-bg">
+                        <p class="desc">Daily TODO APP</p>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://github.com/patelpragna/Todo-React-App" target="_blank">Github Repo</a>
+                </li>
+              </ul>
+              <!-- <a href="https://daily-todo-app-75539.web.app/" target="_blank">Live Demo</a> -->
+              <!--/.PORTFOLIO IMAGE END-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/.WORK END-->
+
+      <!--EMPLOYEMENT-->
+      <section class="grey-bg" id="employement">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="title-small">
+                <span><i class="fa fa-suitcase" aria-hidden="true"></i> Experience</span>
+              </h3>
+              <p class="content-detail">
+                Over 4 years of extensive Experience in designing, User Interface (UI) applications and professional web
+                applications using ANGULAR JS, REACT JS, Redux, HTML 4.0/5, XHTML, CSS2/CSS3, DOM, JAVASCRIPT,
+                JQUERY,
+                AJAX, JSON and XML.
+              </p>
+            </div>
+            <div class="col-md-9 content-right">
+              <div class="row">
+                <ul class="listing-item">
+                  <li>
+                    <div class="col-sm-12">
+                      <div class="wrap-card">
+                        <div class="card">
+                          <h2 class="year">
+                            OCT 2018 - Aug 2020
+                          </h2>
+                          <p class="job">
+                            Senior UI/Front End Developer
+                          </p>
+                          <p class="company">
+                            Verizon
+                          </p>
+                          <hr>
+                          <div class="text-detail">
+                            <p>
+                              <strong>ACSS Application</strong><br>
+                              Worked on developing new functionalities to modify existing customer care application that
+                              supported customer relationship, account profile, transaction and account management and
+                              plan transfer functions. The customer care representative can see bills for respective
+                              account by selecting each account and also they can do payment adjustments. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="col-sm-12">
+                      <div class="wrap-card">
+                        <div class="card">
+                          <h2 class="year">
+                            MAR 2018 - SEP 2018
+                          </h2>
+                          <p class="job">
+                            MEAN Stack Developer
+                          </p>
+                          <p class="company">
+                            Marlabs Inc
+                          </p>
+                          <hr>
+                          <div class="text-detail">
+                            <p>
+                              <strong>Job Search Project</strong><br>
+                              The project is a web-based online application for posting and searching jobs according to
+                              user type and makes it easy
+                              job search using specific keywords. Users can also save the job search, apply for jobs,
+                              filter the search result and
+                              post job.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="listing-item">
+                  <li>
+                    <div class="col-sm-12">
+                      <div class="wrap-card">
+                        <div class="card">
+                          <h2 class="year">
+                            JAN 2014 - DEC 2015
+                          </h2>
+                          <p class="job">
+                            Front End Developer
+                          </p>
+                          <p class="company">
+                            ComExpo Cyber Security
+                          </p>
+                          <hr>
+                          <div class="text-detail">
+                            <p>
+                              <strong>HR Web Portal</strong><br>
+                              The HR Web Portal is an in-house project, which allows the HR manager to
+                              manage all employee details of the company. Managers can generate reports of each employee
+                              including their performance,
+                              pay, time tracking and attendance management.
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/.EMPLOYEMENT END-->
+
+      <!--SKILLS-->
+      <section class="white-bg" id="skill">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="title-small">
+                <span><i class="fa fa-cogs" aria-hidden="true"></i> Skills</span>
+              </h3>
+              <p class="content-detail">
+                According to my experience and knowlegde, I have rated myself in different web technologies and other
+                programming languages.
+              </p>
+            </div>
+            <div class="col-md-9 content-right">
+              <!--SKILLST-->
+              <div class="skillst">
+                <div class="skillbar" data-percent="95%">
+                  <div class="title head-sm">
+                    HTML 5
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="91%">
+                  <div class="title head-sm">
+                    CSS 3
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="80%">
+                  <div class="title head-sm">
+                    JAVASCRIPT
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="78%">
+                  <div class="title head-sm">
+                    JQUERY
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="95%">
+                  <div class="title head-sm">
+                    BOOTSTRAP 3
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="75%">
+                  <div class="title head-sm">
+                    JSON/AJAX
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="75%">
+                  <div class="title head-sm">
+                    ANGULAR.JS
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="75%">
+                  <div class="title head-sm">
+                    REACT.JS
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="50%">
+                  <div class="title head-sm">
+                    NODE.JS
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+                <div class="skillbar" data-percent="50%">
+                  <div class="title head-sm">
+                    MONGO DB
+                  </div>
+                  <div class="count-bar">
+                    <div class="count"></div>
+                  </div>
+                </div>
+
+              </div>
+              <!--/.SKILLST END-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/.SKILLS END-->
+
+      <!--EDUCATION-->
+      <section class="grey-bg" id="education">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="title-small">
+                <span><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</span>
+              </h3>
+              <p class="content-detail">
+                Gained good knowledeg in many different programming languages in my college life.
+              </p>
+            </div>
+            <div class="col-md-9 content-right">
+              <div class="row">
+                <ul class="listing-item">
+                  <li>
+                    <div class="col-sm-12">
+                      <div class="wrap-card">
+                        <div class="card">
+                          <h2 class="year">
+                            2009 - 2013
+                          </h2>
+                          <p class="job">
+                            Bachelor of Computer Engineering
+                          </p>
+                          <p class="company">
+                            Venkteshwar Institute Of Technology
+                          </p>
+                          <hr>
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="row">
+                <ul class="listing-item">
+                  <li>
+                    <div class="col-sm-12">
+                      <div class="wrap-card">
+                        <div class="card">
+                          <h2 class="year">
+                            2016 - 2017
+                          </h2>
+                          <p class="job">
+                            Masters of Computer Science
+                          </p>
+                          <p class="company">
+                            New York Institute Of Technology
+                          </p>
+                          <hr>
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/.EDUCATION END-->
+
+      <!--TESTIMONIAL
+        <section id="testimonial">
+          <div class="container">
+            <div class="row wrap-testimonial">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="owl-carousel">
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        “ Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! ”
+                      </h3>
+                      <p class="people">
+                        Darin Cohen - Active10
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        “ Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. ”
+                      </h3>
+                      <p class="people">
+                        Marko Milicevic
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        “ Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! ”
+                      </h3>
+                      <p class="people">
+                        JK Thang
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mask-testimonial"></div>
+        </section>
+        
+    TESTMONIAL END-->
+
+
+      <!--CONTACT-->
+      <section id="contact" class="white-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="title-small">
+                <span><i class="fa fa-envelope" aria-hidden="true"></i> Get in touch</span>
+              </h3>
+              <p class="content-detail">
+                <strong>Email:</strong> patel.ang09@gmail.com<br><br>
+                <strong>Phone:</strong> +1(732)-971-4647<br><br>
+                <strong>Skype:</strong> pragnapatel027<br><br>
+                <strong>Address:</strong> Franklin Park,NJ (current)
+
+              </p>
+
+            </div>
+            <div class="col-md-9 content-right">
+              <form action="#" method="post" onsubmit="return false">
+                <div class="group">
+                  <input required="" id="name" type="text"><span class="highlight"></span><span
+                    class="bar"></span><label>Name</label>
+                </div>
+                <div class="group">
+                  <input required="" id="email" type="email"><span class="highlight"></span><span
+                    class="bar"></span><label>Email</label>
+                </div>
+                <div class="group">
+                  <textarea required="" id="message"></textarea><span class="highlight"></span><span
+                    class="bar"></span><label>Message</label>
+                </div>
+                <input id="sendMessage" name="sendMessage" type="submit" value="Send Message" onclick="send_mail();">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/.CONTACT END-->
+
+      <!--FOOTER-->
+      <footer>
+        <!-- <div class="footer-top">
+          <ul class="socials">
+            <!-- <li class="facebook">
+                <a href="#" data-hover="Facebook">Facebook</a>
+              </li> -->
+        <!-- <li class="twitter">
+              <a href="#" data-hover="Twitter">Twitter</a>
+            </li>
+            <li class="gplus">
+              <a href="#" data-hover="Google +">Google +</a>
+            </li>
+            <li class="linkedin">
+              <a href="#" data-hover="LinkedIn">LinkedIn</a>
+            </li>
+          </ul>
+        </div> -->
+
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <!--                <img src="images/logo-bottom.png" alt="logo bottom" class="center-block" />-->
+              <h1 id="logoBottom"><a data-scroll="" href="#home"><span><i class="fa fa-star" aria-hidden="true"></i>
+                    PRAGNA <i class="fa fa-star" aria-hidden="true"></i></span></a></h1>
+              <p id="copyright">2017© Pragna Patel. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--/.FOOTER-END-->
+
+      <!--/.CONTENT END-->
+    </div>
+    <!--/.CONTENT-WRAP END-->
+  </div>
+
+
+  <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+  <script src="js/jquery.appear.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/classie.js" type="text/javascript"></script>
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/masonry.js" type="text/javascript"></script>
+  <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
